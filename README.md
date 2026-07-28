@@ -45,7 +45,7 @@ Source: Morgan Stanley Financial Transactional Data.Contains 800 transactions ac
 ![image](https://github.com/rajatgusain17/MORGAN-STANLEY-Financial-Risk-Analysis-with-Python/blob/main/Balance%20Votality%20Vs%20Average%20Balance.png?raw=true)
 
 5. Correlation heatmap showing weak relationships between transaction amount, balance, risk score, credit rating, and tenure:
-![image]()
+![image](https://github.com/rajatgusain17/MORGAN-STANLEY-Financial-Risk-Analysis-with-Python/blob/main/Correlation%20Heatmap.png?raw=true)
 
 6. Boxplots comparing average balance across transaction-volume and activity-level segments for the hypothesis tests:
 ![image]()
