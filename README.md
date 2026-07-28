@@ -48,7 +48,7 @@ Source: Morgan Stanley Financial Transactional Data.Contains 800 transactions ac
 ![image](https://github.com/rajatgusain17/MORGAN-STANLEY-Financial-Risk-Analysis-with-Python/blob/main/Correlation%20Heatmap.png?raw=true)
 
 6. Boxplots comparing average balance across transaction-volume and activity-level segments for the hypothesis tests:
-![image]()
+![image](https://github.com/rajatgusain17/MORGAN-STANLEY-Financial-Risk-Analysis-with-Python/blob/main/Boxplots%20comparing%20average%20balance%20across%20transaction-volume%20and%20activity-level.png?raw=true)
 ## Learning Outcomes              
 Through this project I practiced cleaning real-world-style financial data and catching a hidden data quality issue — the TransactionID field wasn't actually unique despite being documented as one. I built time-based aggregations to summarize transaction trends, created rule-based customer segments with clearly documented thresholds, used statistical methods (IQR, z-score, coefficient of variation) to detect financial risk objectively, and applied hypothesis testing to check a business assumption rather than relying on intuition.         
 ## Conclusion               
