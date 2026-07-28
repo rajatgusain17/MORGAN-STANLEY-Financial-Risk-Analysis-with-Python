@@ -32,18 +32,23 @@ Source: Morgan Stanley Financial Transactional Data.Contains 800 transactions ac
 - Transaction frequency does not statistically predict account balance in this data, so it shouldn't be used alone as a proxy for financial health in decisions like credit limits.                
 - No accounts carry negative or near-zero balances, suggesting the customer base is broadly stable — risk monitoring should focus more on volatility and anomaly flags than on raw balance thresholds.            
 ## Screenshots             
-(Just a one-line caption above each image is enough, e.g.:)
 Monthly net transaction volume showing credits far exceeding debits across the observed period.
+![image]()
 
 Accounts split by activity level, showing High-activity and Low-activity as the largest groups.
+![image]()
 
 Transaction amounts with statistical outliers flagged using the IQR method.
+![image]()
 
 Balance volatility plotted against average balance, colored by risk status.
+![image]()
 
 Correlation heatmap showing weak relationships between transaction amount, balance, risk score, credit rating, and tenure.
+![image]()
 
 Boxplots comparing average balance across transaction-volume and activity-level segments for the hypothesis tests.
+![image]()
 ## Learning Outcomes              
 Through this project I practiced cleaning real-world-style financial data and catching a hidden data quality issue — the TransactionID field wasn't actually unique despite being documented as one. I built time-based aggregations to summarize transaction trends, created rule-based customer segments with clearly documented thresholds, used statistical methods (IQR, z-score, coefficient of variation) to detect financial risk objectively, and applied hypothesis testing to check a business assumption rather than relying on intuition.         
 ## Conclusion               
