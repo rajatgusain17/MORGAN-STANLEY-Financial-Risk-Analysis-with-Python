@@ -39,7 +39,7 @@ Source: Morgan Stanley Financial Transactional Data.Contains 800 transactions ac
 ![image](https://github.com/rajatgusain17/MORGAN-STANLEY-Financial-Risk-Analysis-with-Python/blob/main/Activity%20Level.png?raw=true)
 
 3. Transaction amounts with statistical outliers flagged using the IQR method:
-![image]()
+![image](https://github.com/rajatgusain17/MORGAN-STANLEY-Financial-Risk-Analysis-with-Python/blob/main/Transaction%20Amount%20Distribution.png?raw=true)
 
 4. Balance volatility plotted against average balance, colored by risk status:
 ![image]()
